@@ -1,0 +1,41 @@
+2019-12-25 10:30:25,365-Ruquests-DEBUG-发送post请求
+2019-12-25 10:30:25,590-Ruquests-DEBUG-发送post请求
+2019-12-25 10:30:26,167-Ruquests-DEBUG-发送post请求
+2019-12-25 10:30:26,276-AssertUtil-ERROR-body errror,body is [{'eventCode': 'JJGM001', 'returnCode': '1006', 'tranDate': '2019-12-23', 'srcNo': '0001025', 'returnDesc': '数据库唯一约束冲突，数据重复'}],expected_body is []
+2019-12-25 10:31:49,769-Ruquests-DEBUG-发送post请求
+2019-12-25 10:31:50,501-AssertUtil-ERROR-body errror,body is [{'eventCode': 'JJGM001', 'returnCode': '1006', 'tranDate': '2019-12-23', 'srcNo': '0001025', 'returnDesc': '数据库唯一约束冲突，数据重复'}],expected_body is []
+2019-12-25 10:32:41,332-Ruquests-DEBUG-发送post请求
+2019-12-25 10:35:32,341-Ruquests-DEBUG-发送post请求
+2019-12-25 10:35:32,639-Ruquests-DEBUG-发送post请求
+2019-12-25 10:35:32,681-Ruquests-DEBUG-发送post请求
+2019-12-25 10:37:11,595-Ruquests-DEBUG-发送post请求
+2019-12-25 10:37:11,769-Ruquests-DEBUG-发送post请求
+2019-12-25 10:37:11,853-Ruquests-DEBUG-发送post请求
+2019-12-25 10:37:11,989-AssertUtil-ERROR-body errror,body is [{'eventCode': 'JJGM001', 'returnCode': '1006', 'tranDate': '2019-12-24', 'srcNo': '0001026', 'returnDesc': '数据库唯一约束冲突，数据重复'}],expected_body is []
+2019-12-25 10:37:47,050-Ruquests-DEBUG-发送post请求
+2019-12-25 10:37:47,160-Ruquests-DEBUG-发送post请求
+2019-12-25 10:37:47,254-Ruquests-DEBUG-发送post请求
+2019-12-25 10:37:47,512-AssertUtil-ERROR-body errror,body is [{'eventCode': 'JJGM001', 'returnCode': '1006', 'tranDate': '2019-12-24', 'srcNo': '0001026', 'returnDesc': '数据库唯一约束冲突，数据重复'}],expected_body is []
+2019-12-25 10:38:27,868-Ruquests-DEBUG-发送post请求
+2019-12-25 10:38:27,973-Ruquests-DEBUG-发送post请求
+2019-12-25 10:39:13,062-Ruquests-DEBUG-发送post请求
+2019-12-25 10:39:13,171-Ruquests-DEBUG-发送post请求
+2019-12-25 10:39:57,870-Ruquests-DEBUG-发送post请求
+2019-12-25 10:39:58,148-Ruquests-DEBUG-发送post请求
+2019-12-25 10:42:55,507-Ruquests-DEBUG-发送post请求
+2019-12-25 10:42:55,686-Ruquests-DEBUG-发送post请求
+2019-12-25 10:53:34,211-Ruquests-DEBUG-发送post请求
+2019-12-25 10:55:11,086-Ruquests-DEBUG-发送post请求
+2019-12-25 10:55:11,305-Ruquests-DEBUG-发送post请求
+2019-12-25 11:40:18,104-Ruquests-DEBUG-发送post请求
+2019-12-25 11:40:19,237-Ruquests-DEBUG-发送post请求
+2019-12-25 11:43:43,160-Ruquests-DEBUG-发送post请求
+2019-12-25 11:43:43,242-Ruquests-DEBUG-发送post请求
+2019-12-25 11:45:11,187-Ruquests-DEBUG-发送post请求
+2019-12-25 11:45:11,378-Ruquests-DEBUG-发送post请求
+2019-12-25 14:11:42,735-Ruquests-DEBUG-发送post请求
+2019-12-25 14:11:42,834-Ruquests-DEBUG-发送post请求
+2019-12-25 18:23:16,470-Ruquests-DEBUG-发送post请求
+2019-12-25 18:23:16,595-Ruquests-DEBUG-发送post请求
+2019-12-25 18:32:36,337-Ruquests-DEBUG-发送post请求
+2019-12-25 18:32:36,408-Ruquests-DEBUG-发送post请求

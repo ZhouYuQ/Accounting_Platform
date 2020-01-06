@@ -1,0 +1,31 @@
+[ {
+  "uid" : "d67038db9fe372b2",
+  "name" : "login_2登记失败",
+  "time" : {
+    "start" : 1577958943896,
+    "stop" : 1577958943940,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3988057d8ad1bfd7",
+  "name" : "login_1登记成功",
+  "time" : {
+    "start" : 1577958943799,
+    "stop" : 1577958943887,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d5b7314c81c4907",
+  "name" : "login_3ccy为空",
+  "time" : {
+    "start" : 1577958943952,
+    "stop" : 1577958943985,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
