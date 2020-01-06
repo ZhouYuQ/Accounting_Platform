@@ -1,2 +1,0 @@
-DEBUG    Ruquests:RequestsUtil.py:19 发送post请求
-ERROR    AssertUtil:AssertUtil.py:49 不包含或者body是错误的,body is {'resultCode': '1000', 'resultDesc': '操作成功', 'failureList': [{'eventCode': 'JJGM001', 'returnCode': '1006', 'tranDate': '2020-01-02', 'srcNo': '0001025', 'returnDesc': '数据库唯一约束冲突，数据重复'}]},expected_body is {'resultCode': '1000', 'resultDesc': '操作成功', 'failureList': []}
