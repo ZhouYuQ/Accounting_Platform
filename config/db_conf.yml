@@ -1,0 +1,19 @@
+# 编写相关基本信息
+db_1:
+  db_host: "10.152.16.114"
+  db_user: "camb_kaifa_w"
+  db_password: "YzNmZWMxZTFjNzVmYmJk"
+  db_name: "camb"
+  db_charset: "utf8"
+  db_port: 3306
+
+
+db_2:
+  db_host: "311.103.136.242"
+  db_user: "test"
+  db_password: "test123456"
+  db_name: "meiduo"
+  db_charset: "utf8"
+  db_port: 7090
+
+sql: "delete from gls_s_std_extra where tran_date='2020-01-02'"

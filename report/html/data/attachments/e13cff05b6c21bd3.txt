@@ -1,0 +1,2 @@
+DEBUG    Ruquests:RequestsUtil.py:19 发送post请求
+DEBUG    D:\bj18\Accounting_Platform\utils\LogUtil.py:test_excel_case_动态关联.py:175 数据库查询结果：{'src_no': '0001025'}

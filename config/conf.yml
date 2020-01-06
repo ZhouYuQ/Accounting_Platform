@@ -1,0 +1,22 @@
+BASE:
+ # log等级
+ log_level: "debug"
+ # 扩展名
+ log_extension: ".log"
+ test:
+  url: "http://10.152.16.43:8001"
+  case_file: "database.xlsx"
+  case_sheet: "会计平台"
+
+
+
+
+
+email:
+ smtpserver: "smtp.163.com"
+ username: "18500096975@163.com"
+ password: "hyq123456"
+ receiver: "18500096975@163.com"
+
+
+

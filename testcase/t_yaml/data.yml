@@ -1,0 +1,115 @@
+#name: "test_yaml"
+#result: "sucess"
+
+# 列表
+#- "a"
+#- "b"
+#- "c"
+#- "d"
+
+# 字典嵌套字典
+#person1:
+#  name: "xiaoming"
+#  age: 18
+#person2:
+#  name: "xiaohong"
+#  age: 19
+
+#- username1: "test1"
+#- uesername2: "test2"
+#  password: "123456"
+#  test: "中文"
+
+#读取多个文档
+#---
+#"用户名1": "test1"
+#"密码": "123456"
+#
+#---
+#"用户名2": "test2"
+#"密码": "123456"
+
+
+#BASE:
+##  test:
+##    url: "http://10.152.16.43:8001"
+
+
+
+#登记接口测试用例
+---
+# 测试用例名称
+"case_name": "登记成功用例"
+#url地址
+"url": "/api/serial/checkin"
+
+#data
+"data":
+  checkinList:
+    -
+      tranDate: "2019-12-23"
+      srcNo: "0001025"
+      eventCode: "JJGM001"
+      prdCode: "JJGM"
+      ccy: "156"
+      amt: 888.88
+      aux1: "L009"
+      aux2: "000083"
+      aux4: "N100696C00008"
+      extSet:
+        companyCode: "N100696C00008"
+        custno: "000000367699"
+        purchaseFare: "35.79"
+        purchaseDate: "20190130"
+        orderNumber: "3390000002020"
+        fundProductCode: "000083"
+        companyName: "汇添富基金管理股份有限公司"
+        fundProductName: "添富消费行业混合"
+        redeemDate: ''
+        redeemFare: ''
+        fconfirmbalance: "6000"
+        fundTypeName: "混合型"
+        fconfirmshares: ''
+        fundTypeCode: "mix"
+        businessType: "02"
+
+#1期望结果
+"except": "操作成功"
+
+---
+"case_name": "登记成功用例"
+#url地址
+"url": "/api/serial/checkin"
+
+#data
+"data":
+  checkinList:
+    -
+      tranDate: "2019-12-23"
+      srcNo: "0001025"
+      eventCode: "JJGM001"
+      prdCode: "JJGM"
+      ccy: "156"
+      amt: 888.88
+      aux1: "L009"
+      aux2: "000083"
+      aux4: "N100696C00008"
+      extSet:
+        companyCode: "N100696C00008"
+        custno: "000000367699"
+        purchaseFare: "35.79"
+        purchaseDate: "20190130"
+        orderNumber: "3390000002020"
+        fundProductCode: "000083"
+        companyName: "汇添富基金管理股份有限公司"
+        fundProductName: "添富消费行业混合"
+        redeemDate: ''
+        redeemFare: ''
+        fconfirmbalance: "6000"
+        fundTypeName: "混合型"
+        fconfirmshares: ''
+        fundTypeCode: "mix"
+        businessType: "02"
+
+#1期望结果
+"except": "操作失败"

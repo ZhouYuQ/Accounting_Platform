@@ -1,0 +1,163 @@
+{
+  "uid" : "a9892e90e4c494b2",
+  "name" : "login_3ccy为空",
+  "fullName" : "testcase.test_excel_case_动态关联.TestExcel#test_run",
+  "historyId" : "d78effbcc1318a239e2ff06b0c6d3952",
+  "time" : {
+    "start" : 1578280486259,
+    "stop" : 1578280486376,
+    "duration" : 117
+  },
+  "description" : "<font color='red'>请求URL:</font>http://10.152.16.43:8001/api/serial/checkin<Br/><font color='red'>请求类型：</font>POST<Br/><font color='red'>期望结果：</font>{'resultCode': '1000', 'resultDesc': '操作成功', 'failureList': [{'eventCode': 'JJGM001', 'returnCode': '1007', 'tranDate': '2019-12-27', 'srcNo': '0001025', 'returnDesc': '必输字段ccy为空，无法录入'}]}<Br/><font color='red'>实际结果：</font>{'code': 200, 'body': {'resultCode': '1000', 'resultDesc': '操作成功', 'failureList': [{'eventCode': 'JJGM001', 'returnCode': '1007', 'tranDate': '2019-12-27', 'srcNo': '0001025', 'returnDesc': '必输字段ccy为空，无法录入'}]}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL:</font>http://10.152.16.43:8001/api/serial/checkin<Br/><font color='red'>请求类型：</font>POST<Br/><font color='red'>期望结果：</font>{'resultCode': '1000', 'resultDesc': '操作成功', 'failureList': [{'eventCode': 'JJGM001', 'returnCode': '1007', 'tranDate': '2019-12-27', 'srcNo': '0001025', 'returnDesc': '必输字段ccy为空，无法录入'}]}<Br/><font color='red'>实际结果：</font>{'code': 200, 'body': {'resultCode': '1000', 'resultDesc': '操作成功', 'failureList': [{'eventCode': 'JJGM001', 'returnCode': '1007', 'tranDate': '2019-12-27', 'srcNo': '0001025', 'returnDesc': '必输字段ccy为空，无法录入'}]}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL:</font>http://10.152.16.43:8001/api/serial/checkin<Br/><font color='red'>请求类型：</font>POST<Br/><font color='red'>期望结果：</font>{'resultCode': '1000', 'resultDesc': '操作成功', 'failureList': [{'eventCode': 'JJGM001', 'returnCode': '1007', 'tranDate': '2019-12-27', 'srcNo': '0001025', 'returnDesc': '必输字段ccy为空，无法录入'}]}<Br/><font color='red'>实际结果：</font>{'code': 200, 'body': {'resultCode': '1000', 'resultDesc': '操作成功', 'failureList': [{'eventCode': 'JJGM001', 'returnCode': '1007', 'tranDate': '2019-12-27', 'srcNo': '0001025', 'returnDesc': '必输字段ccy为空，无法录入'}]}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d12da12aa7048527",
+      "name" : "log",
+      "source" : "d12da12aa7048527.txt",
+      "type" : "text/plain",
+      "size" : 53
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "会计平台"
+  }, {
+    "name" : "story",
+    "value" : "登记"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case_动态关联"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "18500096975"
+  }, {
+    "name" : "thread",
+    "value" : "12400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case_动态关联"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例id': 'login_3', '模块': '登记', '接口名称': 'ccy为空', '请求url': '/api/serial/checkin', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': \"{'checkinList':[{'tranDate':'2019-12-27','srcNo':'0001025', 'eventCode':'JJGM001','prdCode':'JJGM','ccy':' ','amt':888.88,'aux1':'L009','aux2':'000083','aux4':'N100696C00008','extSet':{'companyCode':'N100696C00008','custno':'000000367699','purchaseFare':'35.79','purchaseDate':'20190130','orderNumber':'3390000002020','fundProductCode':'000083','companyName':'汇添富基金管理股份有限公司','fundProductName':'添富消费行业混合','redeemDate':'','redeemFare':'','fconfirmbalance':'6000','fundTypeName':'混合型','fconfirmshares':'','fundTypeCode':'mix','businessType':'02'}}]}\", '预期结果': \"{'resultCode': '1000', 'resultDesc': '操作成功', 'failureList': [{'eventCode': 'JJGM001', 'returnCode': '1007', 'tranDate': '2019-12-27', 'srcNo': '0001025', 'returnDesc': '必输字段ccy为空，无法录入'}]}\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"appId\": \"N100696-L009\", \"digest\": \"\", \"records\": \"2\"}', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "93ae93675de4d0ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578036841120,
+        "stop" : 1578036841147,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "4aa1aa3d4941bf3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578036733993,
+        "stop" : 1578036734021,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "5153a43fa5912517",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578035863845,
+        "stop" : 1578035863900,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "da0c0f6781cc4237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578035820714,
+        "stop" : 1578035820763,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "96c2e99a7adbaf6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578035777308,
+        "stop" : 1578035777344,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "afc85b6803efe295",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578035715263,
+        "stop" : 1578035715325,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "d6a4bea57638caf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578035394389,
+        "stop" : 1578035394412,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "d14a2df157f74d59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578034937303,
+        "stop" : 1578034937395,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "a2194ec0e49a376c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577961512845,
+        "stop" : 1577961512871,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "83197c3fc61a3eb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577961432056,
+        "stop" : 1577961432094,
+        "duration" : 38
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9892e90e4c494b2.json",
+  "parameterValues" : [ "{'用例id': 'login_3', '模块': '登记', '接口名称': 'ccy为空', '请求url': '/api/serial/checkin', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': \"{'checkinList':[{'tranDate':'2019-12-27','srcNo':'0001025', 'eventCode':'JJGM001','prdCode':'JJGM','ccy':' ','amt':888.88,'aux1':'L009','aux2':'000083','aux4':'N100696C00008','extSet':{'companyCode':'N100696C00008','custno':'000000367699','purchaseFare':'35.79','purchaseDate':'20190130','orderNumber':'3390000002020','fundProductCode':'000083','companyName':'汇添富基金管理股份有限公司','fundProductName':'添富消费行业混合','redeemDate':'','redeemFare':'','fconfirmbalance':'6000','fundTypeName':'混合型','fconfirmshares':'','fundTypeCode':'mix','businessType':'02'}}]}\", '预期结果': \"{'resultCode': '1000', 'resultDesc': '操作成功', 'failureList': [{'eventCode': 'JJGM001', 'returnCode': '1007', 'tranDate': '2019-12-27', 'srcNo': '0001025', 'returnDesc': '必输字段ccy为空，无法录入'}]}\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"appId\": \"N100696-L009\", \"digest\": \"\", \"records\": \"2\"}', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+}

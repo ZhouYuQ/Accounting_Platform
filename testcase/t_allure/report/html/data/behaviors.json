@@ -1,0 +1,117 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试用例标题1",
+    "uid" : "6b1561e2925ac5e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577935831576,
+      "stop" : 1577935831577,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "测试用例标题2",
+    "uid" : "bd65cdf4d136f8dc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577935831581,
+      "stop" : 1577935831581,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "测试用例标题3",
+    "uid" : "690c2fc7405a1546",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577935831585,
+      "stop" : 1577935831586,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "接口测试，这是一个一级标签",
+    "children" : [ {
+      "name" : "这是一个二级标签test1",
+      "children" : [ {
+        "name" : "测试用例标题1",
+        "uid" : "9af6fef51ff5b278",
+        "parentUid" : "a9101c788d4b21a9474b1769b2b69a6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577938573028,
+          "stop" : 1577938573028,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9101c788d4b21a9474b1769b2b69a6d"
+    }, {
+      "name" : "这是一个二级标签test2",
+      "children" : [ {
+        "name" : "测试用例标题2",
+        "uid" : "9ceced598b173b4f",
+        "parentUid" : "b98468a7cb1a19454bb1e17111f99b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577938573033,
+          "stop" : 1577938573033,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b98468a7cb1a19454bb1e17111f99b79"
+    }, {
+      "name" : "这是一个二级标签test3",
+      "children" : [ {
+        "name" : "测试用例标题3",
+        "uid" : "26940dcc1dde77c9",
+        "parentUid" : "ca12c3e79deef9ad17a93994c0131094",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577938573038,
+          "stop" : 1577938573038,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca12c3e79deef9ad17a93994c0131094"
+    }, {
+      "name" : "case1",
+      "uid" : "76029065b3f3248a",
+      "parentUid" : "9fc9025614a535ab34213a0031adfe2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577938573042,
+        "stop" : 1577938573042,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "'case1'" ]
+    }, {
+      "name" : "case2",
+      "uid" : "a7e4463d69b92ac0",
+      "parentUid" : "9fc9025614a535ab34213a0031adfe2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577938573048,
+        "stop" : 1577938573048,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "'case2'" ]
+    } ],
+    "uid" : "9fc9025614a535ab34213a0031adfe2f"
+  } ]
+}
